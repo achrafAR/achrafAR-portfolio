@@ -1,0 +1,7 @@
+.home-navbar-mySlef{
+    background-image: url('../../images//profilePhoto.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /* Assuming you want a fixed background */
+    background-size: cover;
+}
