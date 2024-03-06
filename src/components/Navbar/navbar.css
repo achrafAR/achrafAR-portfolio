@@ -141,6 +141,7 @@
     width: 50%;
     display: flex;
     justify-content: space-around;
+    margin-right: 15px;
 
 
   }

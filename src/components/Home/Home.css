@@ -2,6 +2,18 @@
     background-image: url('../../images//profilePhoto.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed; /* Assuming you want a fixed background */
+    background-attachment: fixed;
     background-size: cover;
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .home-navbar-mySlef {
+        background-size: 100% 100% ; /* Adjust size for smaller screens if needed */
+    }
+
 }

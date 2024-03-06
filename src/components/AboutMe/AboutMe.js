@@ -6,7 +6,7 @@ function AboutMe() {
   const [activeTab, setActiveTab] = useState("MainSkills");
 
   const handleTabClick = (tab) => {
-    setActiveTab(activeTab === tab ? null : tab);
+    setActiveTab(tab);
   };
 
   return (
@@ -30,21 +30,27 @@ function AboutMe() {
               <li
                 onClick={() => handleTabClick("MainSkills")}
                 className={activeTab === "MainSkills" ? "active-tab" : ""}
-                style={{ color: activeTab === "MainSkills" ? "#ff3300" : "white" }}
+                style={{
+                  color: activeTab === "MainSkills" ? "#ff3300" : "white",
+                }}
               >
                 Main Skills
               </li>
               <li
                 onClick={() => handleTabClick("Experience")}
                 className={activeTab === "Experience" ? "active-tab" : ""}
-                style={{ color: activeTab === "Experience" ? "#ff3300" : "white" }}
+                style={{
+                  color: activeTab === "Experience" ? "#ff3300" : "white",
+                }}
               >
                 Experience
               </li>
               <li
                 onClick={() => handleTabClick("Education")}
                 className={activeTab === "Education" ? "active-tab" : ""}
-                style={{ color: activeTab === "Education" ? "#ff3300" : "white" }}
+                style={{
+                  color: activeTab === "Education" ? "#ff3300" : "white",
+                }}
               >
                 Education
               </li>
@@ -72,13 +78,41 @@ function AboutMe() {
 
             {activeTab === "Experience" && (
               <div className="aboutMe-details">
-                <p>Experience: Previous job positions and responsibilities.</p>
+                <p>
+                  Sr. Front-end Engineer - Google
+                  <br />
+                  2018 - Current
+                </p>
+                <p>
+                  Front-end Engineer - Microsoft
+                  <br />
+                  2017 - 2018
+                </p>
+                <p>
+                  Software Engineer - Alibaba
+                  <br />
+                  2013- 2014
+                </p>
               </div>
             )}
 
             {activeTab === "Education" && (
               <div className="aboutMe-details">
-                <p>Education: Academic qualifications and institutions.</p>
+                <p>
+                  BSc In CSE - ABC University, Los Angeles, CA
+                  <br />
+                  2010
+                </p>
+                <p>
+                  Diploma in Computer Science - Gamma Technical Institute
+                  <br />
+                  2009
+                </p>
+                <p>
+                  Graphic Designer - ABC Institute, Los Angeles, CA
+                  <br />
+                  2007
+                </p>
               </div>
             )}
           </div>
