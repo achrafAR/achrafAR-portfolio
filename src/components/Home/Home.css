@@ -11,9 +11,3 @@
 
 
 
-@media only screen and (max-width: 768px) {
-    .home-navbar-mySlef {
-        background-size: 100% 100% ; /* Adjust size for smaller screens if needed */
-    }
-
-}

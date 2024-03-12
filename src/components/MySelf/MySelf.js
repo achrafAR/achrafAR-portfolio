@@ -6,7 +6,7 @@ function MySelf() {
   return (
     <div className='mySelf-container'>
       <div className='mySelf-text'>
-        <span>Welcome to my World</span>
+        <span>WELCOME TO MY WORLD</span>
         <h1 className='mySelf-name'>Hi, I’m Achraf Al Rachini</h1>
         <h1>
             <Typewriter 

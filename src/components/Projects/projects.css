@@ -1,0 +1,109 @@
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #191919;
+  height: 170vh;
+}
+
+.projects-title{
+    width: 45%;
+}
+
+.projects-title h1{
+    color: white;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+
+}
+
+.projects-title p{
+    color: white;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+
+}
+
+.projects-card-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.projects-card-details {
+    cursor: pointer;
+background-image: url('../../images/aboutMe-photo.avif');
+background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  height: 520px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
+
+
+}
+
+.projects-card-details h3 {
+
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  color: #c6c9d8;
+  margin: 0;
+}
+
+.projects-card-details p {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.projects-card-details button {
+  color: white;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
+  height: 40px;
+  padding: 0 20px;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: hsla(0, 0%, 100%, 0.3);
+}
+
+
+
+.projects-card-details-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  bottom: 30px;
+}
+
+.projects-card-details:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(239, 9, 99, 0.9), rgba(16, 16, 16, 0.9));
+  }
+
+
+
+  .projects-card-details:hover {
+    transform: scale(1.05); /* Adjust the scale factor as needed */
+  }
