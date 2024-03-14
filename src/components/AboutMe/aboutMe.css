@@ -1,9 +1,8 @@
 .aboutMe-container{
     width: 100%;
-    height: 105vh;
     background-color: #191919;
     display: flex;
-    align-items: center;
+    padding: 40px 0;
 }
 
 .aboutMe{
@@ -106,9 +105,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
-        height: 130vh;
-        margin: 0;
     }
     .aboutMe{
         width: 80%;

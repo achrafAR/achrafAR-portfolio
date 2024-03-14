@@ -129,12 +129,14 @@
 
   .navbar-humburger{
     display: block;
+
   }
 
   .navbar-humburger svg {
     cursor: pointer;
     height: 28px;
     width: 28px;
+
   }
 
   .social-media-burger{
@@ -148,17 +150,18 @@
   .navbar-container{
     display: flex;
     justify-content: space-between;
-    
+    position: fixed;
+
+
   }
 
  .popup-content ul{
   list-style-type: none;
   color: white;
+
  }
 
- .navbar-container{
-  position: fixed;
- }
+
 
  .navbar-popup {
   background-color: black;
@@ -167,9 +170,12 @@
   right: 0;
   width: 80%;
   height: 160vh;
-  transition: 0.6s;
-  opacity: 0.95;
+
 }
+
+
+
+
 
 .popup-close{
   font-size: 24px;
@@ -178,6 +184,7 @@
   position: absolute;
   top: 2%;
   right: 10%;
+
 }
 
 .popup-content{
@@ -186,6 +193,8 @@
   width: 90%;
   top: 9%;
   left: 7%;
+
+
 }
 
 .popup-content ul{
