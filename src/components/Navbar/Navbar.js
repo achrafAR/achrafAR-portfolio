@@ -85,7 +85,7 @@ const Navbar = () => {
       </div>
 
       <div className="social-media-burger">
-        <div className="navbar-socialMedia-logo">
+        <div className="social-media-burger">
           <a
             href="https://www.linkedin.com/"
             target="_blank"

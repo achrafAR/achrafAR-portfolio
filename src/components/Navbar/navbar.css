@@ -118,7 +118,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   
   .navbar-content {
     display: none;
@@ -140,7 +140,7 @@
   }
 
   .social-media-burger{
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: space-around;
     margin-right: 15px;
@@ -161,15 +161,15 @@
 
  }
 
-
-
  .navbar-popup {
   background-color: black;
   position: absolute;
   top: 0;
   right: 0;
   width: 80%;
-  height: 160vh;
+  height: 100vh;
+
+
 
 }
 
@@ -233,3 +233,128 @@
 
   
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Show button and burger icon, hide social media */
+  
+  .navbar-list{
+    display: none;
+  }
+
+  .social-media-burger {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .social-media-burger > div:first-child {
+    display: none; /* Show the social media icons */
+  }
+
+  .social-media-burger > div:last-child {
+    display: block; /* Show the burger icon */
+  }
+
+  .navbar-content{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar-humburger svg {
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+
+  }
+
+  .navbar-humburger{
+    width: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-socialMedia{
+    width: 70%;
+  }
+
+
+  .popup-content ul{
+    list-style-type: none;
+    color: white;
+  
+   }
+  
+   .navbar-popup {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+    height: 100vh;
+  
+  }
+  
+  
+  
+  
+  
+  .popup-close{
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+  
+  }
+  
+  .popup-content{
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    top: 9%;
+    left: 7%;
+  
+  
+  }
+  
+  .popup-content ul{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  
+  
+  .popup-content li {
+    height: 40px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  
+  .popup-content li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Initial width is zero */
+    height: 3px; /* Border height */
+    background-color:#ff3300; /* Border color */
+    transition: width 0.5s ease-in-out; /* Add a smooth transition to width */
+  }
+  
+  .popup-content li:hover::after {
+    width: 100%; /* Expand the width to 100% on hover */
+  }
+  
+
+}
+
