@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #191919;
     display: flex;
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .aboutMe{
@@ -14,6 +14,8 @@
 
 }
 
+
+
 .aboutMe-image img{
     width: 480px;
     height: 640px;
@@ -21,6 +23,7 @@
 }
 
 .aboutMe-text h1{
+    margin: 0;
     font-size: 60px;
     color: white;
     font-weight: 700;
@@ -29,6 +32,7 @@
 }
 
 .aboutMe-text p{
+    margin: 0;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     color: rgba(198,201,216,.75);
@@ -37,10 +41,12 @@
 }
 
 .aboutMe-experience ul{
+    width: 70%;
     height: 35px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    padding: 0;
+    justify-content: space-between;
 
 }
 
@@ -60,6 +66,13 @@
     font-weight: 300;
     color: rgba(198,201,216,.75);
     font-family: "Poppins", sans-serif;
+}
+
+.aboutMe-mySlef{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
 .aboutMe-text{

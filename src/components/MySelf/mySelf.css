@@ -74,7 +74,7 @@
 
       .mySelf-container{
         width: 100%;
-        height: 60vh;
+        height: 55vh;
       }
 
       .mySelf-text{
@@ -83,10 +83,10 @@
       }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .mySelf-container{
         width: 100%;
-        height: 60vh;
+        height: 50vh;
       }
 
       .mySelf-text{
