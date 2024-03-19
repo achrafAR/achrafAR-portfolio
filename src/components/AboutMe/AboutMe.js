@@ -10,7 +10,7 @@ function AboutMe() {
   };
 
   return (
-    <div className="aboutMe-container">
+    <div className="aboutMe-container" id="about">
       <div className="aboutMe">
         <div className="aboutMe-image">
           <img src={AboutMEPhoto} alt="aboutMe" />

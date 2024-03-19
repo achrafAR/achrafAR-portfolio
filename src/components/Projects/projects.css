@@ -122,7 +122,13 @@
 
 @media (max-width: 768px) {
 
+  .projects-container{
+    padding: 40px 0;
+
+  }
+
   .projects-card-container {
+    width: 80%;
     grid-template-columns: 1fr;
   }
 

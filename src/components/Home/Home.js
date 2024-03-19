@@ -5,7 +5,7 @@ import MySelf from '../MySelf/MySelf.js';
 
 function Home() {
   return (
-    <div className='home-navbar-mySlef'>
+    <div className='home-navbar-mySlef' id='home'>
         <Navbar/>
         <MySelf/>
     </div>

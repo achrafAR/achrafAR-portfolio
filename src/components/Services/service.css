@@ -124,6 +124,11 @@
     
     }
 
+    .services-container{
+        padding: 40px 0;
+
+    }
+
     .services-logo-text p{
         color:white;
     
@@ -147,6 +152,11 @@
     .awesome-services p{
         width: 100%;
         font-size: 16px;
+    }
+    
+
+    .services{
+        width: 80%;
     }
 
 

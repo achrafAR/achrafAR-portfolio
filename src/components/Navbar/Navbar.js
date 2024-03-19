@@ -11,6 +11,19 @@ const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const navbarHeight = document.querySelector('.navbar-container').offsetHeight;
+      const offsetPosition = element.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+      setMenuOpen(false);
+    }
+  };
+
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
@@ -40,11 +53,11 @@ const Navbar = () => {
       <div className="navbar-content">
         <div className="navbar-list">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+          <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("about")}>About</li>
+          <li onClick={() => scrollToSection("services")}>Services</li>
+          <li onClick={() => scrollToSection("portfolio")}>Portfolio</li>
+          <li onClick={() => scrollToSection("contact")}>Contact</li>
           </ul>
         </div>
         <div className="navbar-socialMedia">
@@ -123,11 +136,11 @@ const Navbar = () => {
         <div className="navbar-popup">
           <div className="popup-content">
             <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Contact</li>
+            <li onClick={() => scrollToSection("home")}>Home</li>
+          <li onClick={() => scrollToSection("about")}>About</li>
+          <li onClick={() => scrollToSection("services")}>Services</li>
+          <li onClick={() => scrollToSection("portfolio")}>Portfolio</li>
+          <li onClick={() => scrollToSection("contact")}>Contact</li>
             </ul>
           </div>
           <div className="popup-close" onClick={toggleMenu}>

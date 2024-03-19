@@ -94,6 +94,7 @@
 
 @media (max-width: 767px){
     .contact-form-image {
+      width: 80%;
         display: flex;
         flex-direction:column-reverse;
         gap: 30px;
@@ -114,7 +115,7 @@
       }
 
       .contact-container {
-        padding: 60px 0;
+        padding: 40px 0;
       }
 
       .conatct-text h1 {

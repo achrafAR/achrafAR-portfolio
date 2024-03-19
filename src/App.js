@@ -5,9 +5,11 @@ import Services from './pages/Services.js';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+
 function App() {
   return (
     <div className="App">
+      
       <HomePage/>
       <AboutMe/>
       <Services/>

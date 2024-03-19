@@ -113,11 +113,14 @@
 
   @media only screen and (max-width: 768px) {
 
+   
 
     .aboutMe-container{
         width: 100%;
         display: flex;
         justify-content: center;
+        padding: 40px 0;
+
     }
     .aboutMe{
         width: 80%;
