@@ -4,6 +4,7 @@ import AboutMe from './pages/AboutMe.js';
 import Services from './pages/Services.js';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer'
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Services/>
       <Projects/>
       <Contact/>
+      <Footer/>
+      
     </div>
   );
 }

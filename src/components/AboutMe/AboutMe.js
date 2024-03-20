@@ -31,7 +31,7 @@ function AboutMe() {
                 onClick={() => handleTabClick("MainSkills")}
                 className={activeTab === "MainSkills" ? "active-tab" : ""}
                 style={{
-                  color: activeTab === "MainSkills" ? "#ff3300" : "white",
+                  color: activeTab === "MainSkills" ? "#f4004d" : "white",
                 }}
               >
                 Main Skills
@@ -40,7 +40,7 @@ function AboutMe() {
                 onClick={() => handleTabClick("Experience")}
                 className={activeTab === "Experience" ? "active-tab" : ""}
                 style={{
-                  color: activeTab === "Experience" ? "#ff3300" : "white",
+                  color: activeTab === "Experience" ? "#f4004d" : "white",
                 }}
               >
                 Experience
@@ -49,7 +49,7 @@ function AboutMe() {
                 onClick={() => handleTabClick("Education")}
                 className={activeTab === "Education" ? "active-tab" : ""}
                 style={{
-                  color: activeTab === "Education" ? "#ff3300" : "white",
+                  color: activeTab === "Education" ? "#f4004d" : "white",
                 }}
               >
                 Education
