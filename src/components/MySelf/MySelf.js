@@ -12,7 +12,7 @@ function MySelf() {
             <Typewriter 
               options={{
                 strings: ["FullStack Developer!", 
-                          "Mern Stack Developer!",
+                          "MernStack Developer!",
                           "content Writer!"],
                 autoStart: true,
                 loop: true,

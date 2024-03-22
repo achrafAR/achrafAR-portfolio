@@ -157,6 +157,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .projects-card-container {
+    width: 90%;
     grid-template-columns: repeat(2, 1fr);
   }
 }

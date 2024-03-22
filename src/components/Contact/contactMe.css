@@ -91,10 +91,13 @@
     transform: translateY(-5px); /* Move the logo up by 10 pixels */
 }
 
+.contact-button{
+  height: 55px;
+}
 
 @media (max-width: 767px){
     .contact-form-image {
-      width: 80%;
+        width: 80%;
         display: flex;
         flex-direction:column-reverse;
         gap: 30px;
@@ -132,5 +135,36 @@
       .contact-text-form {
         gap: 20px;
       }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.contact-container{
+  width: 100%;
+}
+
+
+.contact-form-image{
+  flex-direction: column-reverse;
+  width: 90%;
+}
+
+.contact-text-form{
+  width: 100%;
+}
+
+
+
+.contact-image{
+  width: 100%;
+}
+.contact-image img{
+  height: 700px;
+}
+
+
+
+
+
 
 }
